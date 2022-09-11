@@ -2,6 +2,6 @@ FROM picunada/ton-environment:latest
 
 WORKDIR /app
 
-COPY /wallet /app
+COPY /contract /app
 
 #CMD  toncli deploy -n testnet

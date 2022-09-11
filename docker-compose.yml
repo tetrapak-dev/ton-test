@@ -1,13 +1,7 @@
-version: '3'
+version: "3"
 
 services:
   ton:
     build: .
-    ports:
-      - "80:80"
-    command:
-      - /bin/sh
-      - -c 
-      - |
-        toncli deploy -n testnet 
-        tail -F anything
+    volumes:
+      - ./wallet/:/app
