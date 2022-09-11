@@ -4,4 +4,4 @@ services:
   ton:
     build: .
     volumes:
-      - ./wallet/:/app
+      - ./contract/:/app
