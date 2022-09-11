@@ -25,6 +25,11 @@ docker compose run ton bash
 // deploy contract to get wallet address
 toncli deploy -n testnet
 ```
+# re-run container (after stop container)
+```shell
+docker compose run ton bash
+```
+
 
 # send money to test address
 
